@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/stacyduguay/module6-part3-devops-transactions:0399de9b488e77571d8edd8fd3b17d26eaca3eb1
+          image: ghcr.io/stacyduguay/module6-part3-devops-transactions:6e55b574698b355f37415f24a69d637697970c8c
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
